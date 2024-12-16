@@ -29,7 +29,7 @@ body {
   cursor: pointer;
 }
 
-.Hero-Section button:hover, .Hero-Section button:focus {
+.Hero-Section button:hover, .Hero-Section button:focus, .Hero-Section button:active {
   background: yellow;
   border: 2px solid red;
 }
@@ -45,7 +45,7 @@ body {
   text-align: center;
 }
 
-.btn:hover, .btn:focus  {
+.btn:hover, .btn:focus, .btn:active  {
   background: yellow;
   color: red;
 }
@@ -56,9 +56,10 @@ body {
   margin: 20px auto;
   text-align: center;
   color: darkgrey;
+  cursor: pointer;
 }
 
-.block2:hover, .block3:hover, .block4:hover, .block2:focus, .block3:focus, .block4:focus {
+.block2:hover, .block3:hover, .block4:hover, .block2:focus, .block3:focus, .block4:focus, .block2:active, .block3:active, .block4:active{
   background: rgba(255, 255, 255, 0.6);
   border: 3px solid green;
   border-radius: 25px;
@@ -72,20 +73,25 @@ footer i {
   transition: color 0.3s ease;
 }
 
-footer i:hover, footer i:focus {
+footer i:hover, footer i:focus, footer i:active {
   color: darkgreen;
 }
 
-p:hover, p:focus{
+p:hover, p:focus, p:active{
   color: green;
 }
 
-h3:hover, h3:focus{
+h3:hover, h3:focus, h3:active{
   color: blueviolet;
 }
 
-h1:hover, h1:focus{
+h1:hover, h1:focus, h1:active{
   color: blueviolet; 
+}
+
+input {
+  border: 2px solid yellow
+
 }
 
 
@@ -175,5 +181,3 @@ h1:hover, h1:focus{
     margin: 20px auto;
   }
 }
-
-
