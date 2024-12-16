@@ -120,6 +120,7 @@ input {
 h1,h3,p{
   background: grey;
   border-radius: 18px;
+  margin: 10px;
 }
 
 
