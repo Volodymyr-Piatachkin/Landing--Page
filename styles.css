@@ -29,7 +29,7 @@ body {
   cursor: pointer;
 }
 
-.Hero-Section button:hover {
+.Hero-Section button:hover, .Hero-Section button:focus {
   background: yellow;
   border: 2px solid red;
 }
@@ -45,7 +45,7 @@ body {
   text-align: center;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus  {
   background: yellow;
   color: red;
 }
@@ -58,7 +58,7 @@ body {
   color: darkgrey;
 }
 
-.block2:hover, .block3:hover, .block4:hover {
+.block2:hover, .block3:hover, .block4:hover, .block2:focus, .block3:focus, .block4:focus {
   background: rgba(255, 255, 255, 0.6);
   border: 3px solid green;
   border-radius: 25px;
@@ -72,21 +72,23 @@ footer i {
   transition: color 0.3s ease;
 }
 
-footer i:hover {
+footer i:hover, footer i:focus {
   color: darkgreen;
 }
 
-p:hover{
+p:hover, p:focus{
   color: green;
 }
 
-h3:hover{
+h3:hover, h3:focus{
   color: blueviolet;
 }
 
-h1:hover{
+h1:hover, h1:focus{
   color: blueviolet; 
 }
+
+
 
 /* Адаптація для мобільних пристроїв (до 768px) */
 @media (max-width: 768px) {
@@ -145,13 +147,14 @@ h1:hover{
     justify-content: center;
   }
 
+
   .block2, .block3, .block4, .block5 {
     width: 45%;
     margin: 10px auto;
     padding: 30px;
   }
 
-  .block2:hover, .block3:hover, .block4:hover {
+  .block2:hover, .block3:hover, .block4:hover, .block2:focus, .block3:focus, .block4:focus {
     transition: all 0.5s ease;
   }
 }
