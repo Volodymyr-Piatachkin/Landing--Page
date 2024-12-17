@@ -1,16 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
-body {
-  background: url('club.jpeg') no-repeat center center;
-  background-size: cover;
-  min-height: 100vh;
-  line-height: 1.6;
-}
 * {
   margin: 0;
   padding: 0;
