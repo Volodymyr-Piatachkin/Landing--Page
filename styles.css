@@ -112,7 +112,12 @@ h1,h3,p{
 }
 
 h3{
-   padding: 15px;
+   padding: 10px;
+}
+
+p{
+  font-size: 20px;
+  color: brown;
 }
 
 
